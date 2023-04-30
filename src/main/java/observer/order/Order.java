@@ -8,7 +8,7 @@ import java.util.Set;
 public class Order implements Observable {
     private Long orderNumber;
     private OrderStatus orderStatus;
-    private Set<Observer> registeredObservers = new HashSet<Observer>();
+    private Set<Observer> registeredObservers = new HashSet<>();
 
     public Order(Long orderNumber, OrderStatus orderStatus) {
         this.orderNumber = orderNumber;
