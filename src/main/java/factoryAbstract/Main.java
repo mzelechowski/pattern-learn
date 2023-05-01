@@ -16,7 +16,5 @@ public class Main {
 
         AirUnit blueHelicopter = blueFactory.createAirUnit(UnitType.HELICOPTER);
         AirUnit redHelicopter = redFactory.createAirUnit(UnitType.HELICOPTER);
-
     }
-
 }
